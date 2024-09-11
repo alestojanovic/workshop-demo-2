@@ -26,7 +26,7 @@ export const Homepage = () => {
       </div>
 
       {like ? (
-        <div onClick={() => navigate('/About')}>
+        <div onClick={() => navigate('/About')} data-testid='reactLogo'>
           <img src={logo} className='App-logo' alt='logo' />
         </div>
       ) : null}
