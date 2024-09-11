@@ -41,3 +41,8 @@
   position: fixed;
   top: 50px;
 }
+
+.custom-button {
+  width: 60px;
+  background-color: blue;
+}
